@@ -6,7 +6,7 @@
 //
 // Create Date:   12:54:50 01/06/2026
 // Design Name:   even_parity_checker
-// Module Name:   /home/ise/verilog_projects/Challenge_100days/even_parity.v
+// Module Name:   /home/ise/verilog_projects/Challenge_100days/even_parity_tb.v
 // Project Name:  Challenge_100days
 // Target Device:  
 // Tool versions:  
@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module even_parity;
+module even_parity_tb;
 
 	// Inputs
 	reg [7:0] data1;
