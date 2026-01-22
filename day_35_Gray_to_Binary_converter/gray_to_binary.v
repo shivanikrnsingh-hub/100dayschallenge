@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module gary_to_binary(
+module gray_to_binary(
   
   input [3:0] in_gray,
   output [3:0] out_binary
