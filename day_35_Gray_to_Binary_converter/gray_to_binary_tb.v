@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module gray_to_binary;
+module gray_to_binary_tb;
 
 	// Inputs
 	reg [3:0] in_gray;
@@ -31,7 +31,7 @@ module gray_to_binary;
 	wire [3:0] out_binary;
 
 	// Instantiate the Unit Under Test (UUT)
-	gary_to_binary uut (
+	gray_to_binary uut (
 		.in_gray(in_gray), 
 		.out_binary(out_binary)
 	);
