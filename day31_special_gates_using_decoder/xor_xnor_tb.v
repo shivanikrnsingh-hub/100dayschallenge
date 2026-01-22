@@ -33,7 +33,7 @@ module xor_xnor_tb;
 	wire xnor_o;
 
 	// Instantiate the Unit Under Test (UUT)
-	xor_decoder uut (
+	xor_xnor_decoder uut (
 		.a(a), 
 		.b(b), 
 		.xor_o(xor_o), 
