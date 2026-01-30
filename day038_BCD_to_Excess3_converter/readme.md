@@ -34,7 +34,7 @@ Communication Systems: Used in some legacy data transmission formats to avoid lo
 
 Historical Computing: Used in systems like the UNIVAC I to simplify hardware arithmetic.
 
-**Simulation Result**
+**Console Result**
 
 <img width="938" height="391" alt="bcd_to_excess3_console" src="https://github.com/user-attachments/assets/023a40f2-aaf9-460b-8321-0167733674dd" />
 
