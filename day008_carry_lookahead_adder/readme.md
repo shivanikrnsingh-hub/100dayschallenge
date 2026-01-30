@@ -11,7 +11,8 @@
  * Propagate ($P$): $P_i = A_i \oplus B_i$ (An incoming carry will be passed to the next stage).
  
  **The Lookahead Logic,Instead of waiting, the carry for each stage is calculated using the following Boolean equations:**
- * $C_0 = G_0 + (P_0 \cdot C_{in})$$C_1 = G_1 + (P_1 \cdot G_0) + (P_1 \cdot P_0 \cdot C_{in})$
+ * $C_0 = G_0 + (P_0 \cdot C_{in})$
+ * $C_1 = G_1 + (P_1 \cdot G_0) + (P_1 \cdot P_0 \cdot C_{in})$
  * $C_2 = G_2 + (P_2 \cdot G_1) + (P_2 \cdot P_1 \cdot G_0) + (P_2 \cdot P_1 \cdot P_0 \cdot C_{in})$
 
    By expanding these equations, every carry bit becomes a function of the initial $C_{in}$ and the $A, B$ inputs, allowing them to be calculated in parallel.
