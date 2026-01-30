@@ -8,6 +8,11 @@ The 2x2 Vedic multiplier is a combinational circuit designed using basic logic g
 * 4 AND Gates: Used to generate the partial products.
 * 2 Half Adders: Used to sum the intermediate results and propagate the carries.
 
+  
+**Architectural Sketch**
+Below is the hardware logic diagram used for this implementation:
+![WhatsApp Image 2026-01-29 at 22 46 48 (1)](https://github.com/user-attachments/assets/6ad5c603-7055-4a20-ae00-d66d15e27e12)
+
 **Step-by-Step Logic:**
 * LBS (Bit 0): Multiply the least significant bits: M[0] = A[0] & B[0].
 
