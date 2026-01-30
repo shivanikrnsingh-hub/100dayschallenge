@@ -9,13 +9,13 @@ The 2x2 Vedic multiplier is a combinational circuit designed using basic logic g
 *2 Half Adders: Used to sum the intermediate results and propagate the carries.
 
 * **Step-by-Step Logic:**
-*LBS (Bit 0): Multiply the least significant bits: M[0] = A[0] & B[0].
+* LBS (Bit 0): Multiply the least significant bits: M[0] = A[0] & B[0].
 
-*Middle (Bit 1): Cross-multiply and add: (A[1] & B[0]) + (A[0] & B[1]). The sum is M[1] and the carry goes to the next stage.
+* Middle (Bit 1): Cross-multiply and add: (A[1] & B[0]) + (A[0] & B[1]). The sum is M[1] and the carry goes to the next stage.
 
-*MSB (Bits 3 and 2): Multiply the most significant bits and add the carry from the previous step: (A[1] & B[1]) + Carry.
+* MSB (Bits 3 and 2): Multiply the most significant bits and add the carry from the previous step: (A[1] & B[1]) + Carry.
 
 **Advantages**
-High Speed: Parallel generation of partial products reduces the critical path delay.
+* High Speed: Parallel generation of partial products reduces the critical path delay.
 
-Low Power: Minimal switching activity compared to complex array multipliers.
+* Low Power: Minimal switching activity compared to complex array multipliers.
