@@ -18,5 +18,5 @@ The 4-bit inputs A and B are partitioned into 2-bit chunks:
   
 
 * **Key Advantages**
-*Parallelism: Multiplier blocks operate simultaneously, reducing latency.
-*Modularity: Uses the 2x2 Vedic module from Day 41 as a primitive.
+* Parallelism: Multiplier blocks operate simultaneously, reducing latency.
+* Modularity: Uses the 2x2 Vedic module from Day 41 as a primitive.
