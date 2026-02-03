@@ -6,7 +6,7 @@ By breaking a 4x4 multiplication into four parallel 2x2 operations, we significa
 **Design Hierarchy**
 The design follows a structural modeling approach. 
 The 4-bit inputs A and B are partitioned into 2-bit chunks:
-* **1. m1:** $a_{low}$ \times b_{low}$
+* **1. m1:** $a_{low} \times b_{low}$
 * **2. m2:** $a_{high} \times b_{low}$
 * **3. m3:** $a_{low} \times b_{high}$
 * **4. m4:** $a_{high} \times b_{high}$
