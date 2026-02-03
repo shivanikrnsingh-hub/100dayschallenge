@@ -1,5 +1,5 @@
 ![WhatsApp Image 2026-01-29 at 22 46 48](https://github.com/user-attachments/assets/7304006f-bebf-4ffc-aadd-8f9ca474f9ed)
-📝 **Overview**
+**Overview**
 This project implements a high-speed 4x4 Vedic Multiplier based on the Urdhva-Tiryagbhyam sutra.
 By breaking a 4x4 multiplication into four parallel 2x2 operations, we significantly reduce the propagation delay compared to standard array multipliers.
 
