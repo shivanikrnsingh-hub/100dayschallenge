@@ -10,7 +10,7 @@ This implementation uses an edge-triggered always block to model synchronous beh
 
 * Toggle Logic: The core functionality is governed by the state of T:T = 1: The output flips ($Q_{next} = \overline{Q}$).T = 0: The output is latched ($Q_{next} = Q$).
 
-* Clock Edge: By using posedge clk, the circuit ensures that state changes occur predictably, avoiding the instability found in level-sensitive latches.Truth TableresetTclkQ (Next State)Operation1X↑0Reset00↑QHold (No change)01↑~QToggle
+* Clock Edge: By using posedge clk, the circuit ensures that state changes occur predictably, avoiding the instability found in level-sensitive latches.
 
 
 **Key Verilog Concepts**
