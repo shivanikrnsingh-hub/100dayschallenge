@@ -5,9 +5,17 @@ This module demonstrates the concept of Flip-Flop Conversion, where existing fli
 
 **Hardware Architecture**
 
-The design instantiates three different flip-flops and provides them with specific "Excitation Logic" derived from the SR truth table.1. SR behavior using JK Flip-FlopThe JK Flip-Flop is naturally compatible with SR logic because $J$ maps to $S$ and $K$ maps to $R$.
+The design instantiates three different flip-flops and provides them with specific "Excitation Logic" derived from the SR truth table.
 
-* Logic: $J = S, K = R$2. SR behavior using D Flip-FlopTo make a D-FF behave like an SR-FF, the input $D$ must follow the characteristic equation:Logic: $D = S + \overline{R}Q$In the code: assign w2 = (S) | (~R & Q_D);3. SR behavior using T Flip-FlopConverting to a T Flip-Flop requires logic that triggers a "Toggle" only when the desired next state differs from the current state.Logic: $T = S\overline{Q} + RQ$In the code: assign w5 = (S & ~Q_T) | (R & Q_T);
+1. SR behavior using JK Flip-FlopThe JK Flip-Flop is naturally compatible with SR logic because $J$ maps to $S$ and $K$ maps to $R$.
+* Logic: $J = S, K = R$
+
+2. SR behavior using D Flip-FlopTo make a D-FF behave like an SR-FF,
+* the input $D$ must follow the characteristic equation:
+* Logic: $D = S + \overline{R}Q$In the code: assign w2 = (S) | (~R & Q_D);
+
+3. SR behavior using T Flip-FlopConverting to a T Flip-Flop requires logic that triggers a "Toggle" only when the desired next state differs from the current state.
+* Logic: $T = S\overline{Q} + RQ$In the code: assign w5 = (S & ~Q_T) | (R & Q_T);
 
 
 **Key Verilog Concepts**
