@@ -1,6 +1,6 @@
 **Description**
 
-Generating a 50% duty cycle for an even frequency divider is trivial (using a flip-flop). However, for an odd divider like Divide-by-7, it is significantly more challenging because the output must toggle halfway through a clock cycle (at the 3.5 clock mark).This module implements a classic RTL technique to achieve a near-50% duty cycle by leveraging both the positive and negative edges of the clock. It combines a Mod-7 counter with a falling-edge triggered D-Flip-Flop to "stretch" the output pulse by half a clock cycle.
+This module implements a classic RTL technique to achieve a near-50% duty cycle by leveraging both the positive and negative edges of the clock. It combines a Mod-7 counter with a falling-edge triggered D-Flip-Flop to "stretch" the output pulse by half a clock cycle.
 
 **Hardware Architecture**
 
