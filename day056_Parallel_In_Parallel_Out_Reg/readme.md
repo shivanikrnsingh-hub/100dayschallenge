@@ -1,4 +1,5 @@
 **Description**
+
 The PIPO (Parallel-In Parallel-Out) Register is the most direct way to store multi-bit data in a digital system. Unlike shift registers, a PIPO register does not move data between internal stages. Instead, it captures an entire bus of data (parallel_in) on a single clock edge and makes it immediately available at the output (parallel_out). It acts as a synchronous buffer, "freezing" data in time so it can be processed by other parts of the circuit.
 
 **Hardware Architecture**
