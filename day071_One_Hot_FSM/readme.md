@@ -10,6 +10,7 @@ While this uses more flip-flops than Binary or Gray encoding ($N$ flip-flops for
 This design implements a Moore-style FSM (outputs depend only on the current state) within a single synchronous block:
 
 State Encoding:
+
     * IDLE:   4'b0001
     
     * State1: 4'b0010
