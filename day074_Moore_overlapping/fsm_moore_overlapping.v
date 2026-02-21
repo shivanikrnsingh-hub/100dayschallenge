@@ -66,7 +66,7 @@ module fsm_moore_overlapping(
                 S5:if(din==1'b1)
 					      next_state=S2;
 						  else
-						   next_state=S0;
+						   next_state=S3;
                 default:next_state=S0;							
                 endcase
                end
