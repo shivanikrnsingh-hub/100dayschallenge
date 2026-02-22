@@ -13,7 +13,9 @@ Dual-Edge Triggered Flip-Flop (d1): This specialized flip-flop samples the divid
 
 XOR Output Logic: By XORing the original divide-by-7 signal (q1) with its dual-edge sampled version (q2), the circuit generates pulses at every transition of the slow clock. Since the slow clock transitions twice per cycle, the XOR output results in a frequency that is exactly double the divide-by-7 signal.
 
-The Math:$\text{Output Frequency} = \frac{f_{clk}}{7} \times 2 = \frac{f_{clk}}{3.5}$
+The Math:
+
+$\text{Output Frequency} = \frac{f_{clk}}{7} \times 2 = \frac{f_{clk}}{3.5}$
 
 **Key Verilog Concepts**
 
