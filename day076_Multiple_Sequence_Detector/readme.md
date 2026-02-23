@@ -34,7 +34,7 @@ Detection:
 
 * Blocking vs. Non-Blocking: Note the correct use of non-blocking (<=) for the sequential state register and blocking (=) for the combinational next-state/output logic.
 
-* State Optimization: This FSM uses 3 bits to represent 7 states. Using (* fsm_encoding = "user" *) (commented in your code) would force the compiler to use your specific binary assignments rather than optimizing them into One-Hot.
+* State Optimization: This FSM uses 3 bits to represent 7 states. 
 
 **Simulation Result**
 
