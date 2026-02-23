@@ -17,6 +17,11 @@ This design maintains the Two-Always-Block Style, which is robust for synthesis:
 
 <img width="972" height="196" alt="image" src="https://github.com/user-attachments/assets/eec3e9ee-845c-42ad-af47-9d9ad4ca74d0" />
 
+**State Diagram**
+
+<img width="465" height="513" alt="fsm_mealy_non_overlapping_DIAGRAM" src="https://github.com/user-attachments/assets/83f0c3a2-f36a-45ce-86b9-e4a45ba73481" />
+
+
 **Simulation Result**
 
 <img width="1383" height="188" alt="fsm_mealy_non_overlapping_sim" src="https://github.com/user-attachments/assets/ad69e4d2-cf97-4ace-8a99-66a061110cc5" />
