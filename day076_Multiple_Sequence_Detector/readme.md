@@ -1,6 +1,6 @@
 **Description**
 
-In many complex communication protocols, a single FSM needs to monitor the data line for more than one pattern. Today's project is a Multiple Sequence Detector designed to detect two distinct 4-bit sequences: 1100 and 1010.
+In many complex communication protocols, a single FSM needs to monitor the data line for more than one pattern. Today's project is a Multiple Sequence Detector designed to detect two distinct 4-bit sequences: 1100 ,1001 and 1010.
 
 This is a Mealy Machine, meaning the output out is asserted in the same clock cycle that the final bit of either sequence is detected. This design is significantly more complex than a single-sequence detector because the state branches must account for "shared" prefixes and divergent paths.
 
