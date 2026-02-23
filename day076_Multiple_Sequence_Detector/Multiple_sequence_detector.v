@@ -23,7 +23,7 @@ module Multiple_sequence_detector(
 		  output reg out
     );
     
-	//(* fsm_encoding = "user" *) 
+ 
 	reg [2:0] current_state,next_state;
 	 
 	 localparam [2:0] S0=3'b000,//a
