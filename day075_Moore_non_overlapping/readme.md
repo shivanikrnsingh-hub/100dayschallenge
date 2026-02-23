@@ -1,4 +1,5 @@
 **Description**
+
 Completing the quartet of sequence detectors, today's project is the Non-Overlapping Moore FSM for the sequence 11011.
 
 In this configuration, the FSM waits for the complete sequence to be received before asserting the output in a dedicated "Success" state (S5). Once that state is reached, the FSM ignores any potential overlapping bits and resets its search entirely from the next clock cycle. This is the "strictest" form of sequence detection, ensuring that each detected pattern is unique and separate.
