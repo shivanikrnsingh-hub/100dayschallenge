@@ -27,6 +27,11 @@ Two-Block Coding Style: This is much easier to debug than a single-block FSM bec
 
 Reset Logic: The asynchronous-style reset (though written synchronously in the always block) ensures the FSM returns to the S0 start state.
 
+**Simulation Result**
+
+<img width="1357" height="232" alt="fsm_mealy_overlapping_simulation" src="https://github.com/user-attachments/assets/d6c7615e-c88f-4f39-b3d0-f0d3d061bb9b" />
+
+
 **Applications**
 
 Pattern Recognition: Identifying specific headers or sync-bytes in a serial data stream.
