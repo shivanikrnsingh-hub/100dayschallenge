@@ -19,3 +19,7 @@ The design operates in two distinct stages:
   * Multiplication Handling: An 8-bit internal register (mult_result) captures the product of two 4-bit numbers to prevent data loss during calculation, though only the lower 4 bits are mapped to the primary output.
 
   * Comparison Operations: The equality (==) and greater-than (>) operations return a boolean result (4'b0001 for true, 4'b0000 for false), facilitating branch-decision logic in higher-level controllers.
+
+**Simulation Result**
+
+<img width="845" height="435" alt="aluu_console" src="https://github.com/user-attachments/assets/2d754bb5-5985-4dac-ba38-57c87821505b" />
