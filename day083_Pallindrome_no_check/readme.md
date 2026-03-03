@@ -12,3 +12,8 @@ The design utilizes a Continuous Assignment with the Verilog Concatenation Opera
 **Sinmulation Results**
 
 <img width="1123" height="165" alt="palindrome_sequence_check_sim" src="https://github.com/user-attachments/assets/755e4836-d754-41ac-b3dc-d35da8089a6a" />
+
+
+**Sample Table**
+
+<img width="497" height="193" alt="image" src="https://github.com/user-attachments/assets/f584f5c5-f933-40fe-af2f-628ce75f8f89" />
