@@ -17,8 +17,8 @@ This project implements a complete MBIST environment consisting of a Top-level m
 Pattern Generation: The controller uses a fixed checkerboard-style pattern (8'hAA or 10101010). This helps detect stuck-at faults and certain coupling faults in the memory cells.
 
 Error Injection: The force_error logic:
-assign data_out = (force_error && addr == 4'h10) ? (ram[addr] & 8'hFE) : ram[addr];
-Note: In the code, addr == 4'h10 (decimal 16) is outside the range of a 4-bit address (0-15). For the test to pass in simulation, this should typically be within the 0-F range.
+assign data_out = (force_error && addr == 4'h0) ? (ram[addr] & 8'hFE) : ram[addr];
+
 
 Handshaking: The test_done signal ensures the system knows exactly when the diagnostic results are valid.
 
