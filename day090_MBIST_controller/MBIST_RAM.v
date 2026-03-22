@@ -37,7 +37,7 @@ module MBIST_RAM(
 		  end
 		  
 		  
-		  assign data_out=(force_error && addr==4'h10)?(ram[addr]&8'hFE):(ram[addr]);
+		  assign data_out=(force_error && addr==4'h0)?(ram[addr]&8'hFE):(ram[addr]);
 
 
 endmodule
