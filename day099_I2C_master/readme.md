@@ -1,5 +1,4 @@
 ## **Day 099: I2C Master Receiver Controller**
-
 ### **Description**
 This project implements a synchronous **I2C (Inter-Integrated Circuit) Master Receiver Controller** designed to orchestrate read transactions from targeted slave peripherals. I2C is a widely used multi-master, multi-slave, synchronous, bidirectional, two-wire serial communication bus interface. 
 
