@@ -1,4 +1,6 @@
-# Synchronous FIFO Design & Verification
+Day 91 Synchronous FIFO Design & Verification
+
+**Description**
 
 This repository contains a parameterizable **Synchronous FIFO (First-In, First-Out)** memory buffer and its corresponding testbench, implemented in Verilog HDL. This design is part of a structural hardware development series, focusing on modularity, clear flag generation, and edge-case validation.
 
