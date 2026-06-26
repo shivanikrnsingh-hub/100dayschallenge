@@ -1,4 +1,4 @@
-## **Day 096: Multi-Channel Pulse Width Modulation (PWM) Generator**
+## **Day 097: Multi-Channel Pulse Width Modulation (PWM) Generator**
 
 ### **Description**
 This project implements a parameterized, synchronous **Multi-Channel Pulse Width Modulation (PWM) Generator**. PWM is an essential technique used to control analog circuits using digital outputs by varying the duty cycle of a square wave. 
