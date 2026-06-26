@@ -1,4 +1,4 @@
-## **Day 092: Numerically Controlled Oscillator (NCO)**
+## **Day 093: Numerically Controlled Oscillator (NCO)**
 
 ### ** Description**
 A **Numerically Controlled Oscillator (NCO)** is a fundamental building block in Digital Signal Processing (DSP) and Software Defined Radio (SDR) subsystems. It acts as a digital clock synthesizer, creating a synchronous output signal whose frequency is directly governed by a digital input value known as the **Frequency Tuning Word (FTW)** or **Control Word**.
