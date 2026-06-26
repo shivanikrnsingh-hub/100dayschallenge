@@ -1,4 +1,4 @@
-## **Day 094: FSM Intelligent Car Parking Management System**
+## **Day 095: FSM Intelligent Car Parking Management System**
 
 ### **Description**
 This project implements an intelligent, secure **Car Parking Management System** controlled by a Finite State Machine (FSM). Designed for a facility with a configurable maximum capacity (`parameter max_count = 15`), the system monitors entry sensors, exit sensors, and a security password terminal before operating access control gates.
