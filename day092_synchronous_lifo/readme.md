@@ -1,4 +1,4 @@
-## **Day 091: Synchronous LIFO (Stack) Buffer**
+## **Day 092: Synchronous LIFO (Stack) Buffer**
 
 ### **Description**
 A **LIFO (Last-In-First-Out)** buffer, commonly referred to as a **Stack**, is a sequential data structure where the most recently written data is the first to be retrieved. This project implements a fully synchronous $16 \times 8$-bit LIFO storage module. 
