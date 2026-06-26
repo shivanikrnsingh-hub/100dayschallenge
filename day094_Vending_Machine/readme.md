@@ -1,4 +1,4 @@
-## **Day 093: Finite State Machine (FSM) Vending Machine Controller**
+## **Day 094: Finite State Machine (FSM) Vending Machine Controller**
 
 ### ** Description**
 This project implements a classic synchronous **Mealy/Moore Hybrid Finite State Machine (FSM)** simulating a vending machine controller. The machine is designed to dispense an item priced at **15 cents** ($\text{15¢}$) while accepting two types of coin inputs: **Nickels** ($\text{5¢}$) and **Dimes** ($\text{10¢}$). 
